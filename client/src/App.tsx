@@ -55,10 +55,6 @@ const App: React.FC = () => {
     status: "Active",
   });
 
-  const fetchUsers = async() => {
-
-  }
-
   const handleOpen = () => setOpen(true);
   const handleClose = () => {
     setOpen(false);
